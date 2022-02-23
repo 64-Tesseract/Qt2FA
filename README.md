@@ -16,6 +16,8 @@ A key feature of this app is the screenshot function, which decodes and imports 
 - `opencv-python`
 - `pyqt5`
 - `pyautogui`
+- `cryptography`
+- `pyzbar`
 
 ## Usage
 ### Loading, saving, and encryption
