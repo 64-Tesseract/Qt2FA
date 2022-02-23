@@ -158,7 +158,7 @@ class MainWin (QMainWindow):
         
         self.top_btns = WidgetBox(QHBoxLayout,  # Top & bottom widget rows
                                   self.bar,
-                                  AutoButton("New code", self.create_code, "Manually add code info"),
+                                  AutoButton("New Code", self.create_code, "Manually add code info"),
                                   AutoButton("Screenshot", self.screenshot, "Scan the screen for a QR code to import"))
         self.btm_btns = WidgetBox(QHBoxLayout,
                                   AutoButton("Recrypt", self.recrypt, "Change password used for hashing codes on exit"),
